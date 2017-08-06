@@ -4,8 +4,8 @@ package cmd
 // Employee contains Name and Age with several functions.
 // You can use it if you like
 type Employee struct {
-	Name string
-	Age  int
+	Name string // name of an employee
+	Age  int    // actual age of an employee
 }
 
 // GetAge enable you to get fake age. This function returns an age which is actual age plus one.
